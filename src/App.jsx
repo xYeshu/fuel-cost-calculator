@@ -36,8 +36,8 @@ const FUEL_PRICES = {
 
 export default function App() {
   const [fuelType, setFuelType] = useState('petrol');
-  const [distance, setDistance] = useState(22);
-  const [mileage, setMileage] = useState(25);
+  const [distance, setDistance] = useState();
+  const [mileage, setMileage] = useState();
   const [selectedState, setSelectedState] = useState('Delhi');
   const [isStateDropdownOpen, setIsStateDropdownOpen] = useState(false);
   const [useCustomPrice, setUseCustomPrice] = useState(false);
