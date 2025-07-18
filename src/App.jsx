@@ -326,7 +326,7 @@ export default function App() {
               
               <div className="space-y-2 sm:space-y-3">
                 {/* Daily Cost with Slide Animation */}
-                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-green-500/10 transform hover:scale-[1.02] cursor-pointer ${costs ? 'animate-slide-in-right' : ''}`}>
+                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-green-500/10 transform hover:scale-[1.02] ${costs ? 'animate-slide-in-right' : ''}`}>
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 bg-green-400 rounded-full animate-pulse"></div>
                     <span className="text-white font-medium text-xs sm:text-sm">Daily Cost</span>
@@ -337,7 +337,7 @@ export default function App() {
                 </div>
 
                 {/* Monthly Cost with Slide Animation */}
-                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-blue-500/10 transform hover:scale-[1.02] cursor-pointer ${costs ? 'animate-slide-in-right-delay' : ''}`}>
+                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-blue-500/10 transform hover:scale-[1.02]  ${costs ? 'animate-slide-in-right-delay' : ''}`}>
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 bg-blue-400 rounded-full animate-pulse"></div>
                     <span className="text-white font-medium text-xs sm:text-sm">Monthly Cost</span>
@@ -348,7 +348,7 @@ export default function App() {
                 </div>
 
                 {/* Yearly Cost with Slide Animation */}
-                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-purple-500/10 transform hover:scale-[1.02] cursor-pointer ${costs ? 'animate-slide-in-right-delay-2' : ''}`}>
+                <div className={`flex justify-between items-center p-2 sm:p-3 bg-white/5 rounded-lg sm:rounded-xl border border-white/10 transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-purple-500/10 transform hover:scale-[1.02] ${costs ? 'animate-slide-in-right-delay-2' : ''}`}>
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 bg-purple-400 rounded-full animate-pulse"></div>
                     <span className="text-white font-medium text-xs sm:text-sm">Yearly Cost</span>
@@ -384,9 +384,9 @@ export default function App() {
               href="https://yeshu.pages.dev" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-300 hover:text-blue-200 transition-all duration-300 underline cursor-pointer transform hover:scale-105 inline-block hover:shadow-lg hover:shadow-blue-500/20"
+              className="text-blue-300 hover:text-blue-200 transition-all duration-300 cursor-pointer transform hover:scale-105 inline-block hover:shadow-lg hover:shadow-blue-500/20"
             >
-              A Project by Yeshu Wanjari
+              ~ A Project by Yeshu Wanjari
             </a>
           </p>
         </div>
